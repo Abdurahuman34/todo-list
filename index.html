@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h3>To Do List:</h3>
+		<ul>
+		    <li>Homework</li>
+		    <li>Walk Karel</li>
+		    <li>Make Dinner</li>
+		    <li>Clean Room</li>
+		</ul>
+		<script>
+		    //Give each li item an eventListener
+			//First create a crossoff function
+			// Second addEventListener
+			// use style
+			// add events to the li elements 
+            var li = document.getElementsByTagName("li");
+			// console.log(lists);
+			for(var i = 0;i<li.length;i++){
+            // console.log(lists.length);
+			}
+				li[i].addEventListener("click", crossOff);
+			function crossOff(){
+
+			if (this.getAttribute("style") == "text-decoration; line-throught"){
+				this.removeAttribute("style");
+			}else{
+				this.setAttribute("style", "text-decorations: line-through")
+			}
+			}
+             
+            	
+			 
+
+          
+		    
+		    //Write function crossOff here.
+		</script>
+	</body>
+</html>
